@@ -1127,7 +1127,7 @@ Site Header
 }
 
 .site-header .wrap {
-	min-height: 160px;
+	min-height: 100px;
 }
 
 .bumper {
@@ -1205,7 +1205,7 @@ Site Header
 	float: right;
 	text-align: right;
 	padding-top: 10px;
-	width: 540px;
+	width: 640px;
 }
 
 .site-header .widget-area a,
@@ -1217,7 +1217,7 @@ Site Header
 --------------------------------------------- */
 
 .site-header.shrink .wrap {
-	background-color: rgba(255, 255, 255, 0.1);
+	/*background-color: rgba(255, 255, 255, 0.1);*/
 	min-height: 60px;
 	padding: 0 40px;
 }
@@ -1250,7 +1250,7 @@ Site Navigation
 .genesis-nav-menu {
 	-webkit-font-smoothing: subpixel-antialiased;
 	clear: both;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1;
 	width: 100%;
 }
