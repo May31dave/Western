@@ -174,7 +174,7 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Home 4', 'centric' ),
 	'description' => __( 'This is the fourth section of the home page.', 'centric' ),
 ) );
-genesis_register_sidebar( array(
+/*genesis_register_sidebar( array(
 	'id'          => 'home-widgets-5',
 	'name'        => __( 'Home 5', 'centric' ),
 	'description' => __( 'This is the fifth section of the home page.', 'centric' ),
@@ -183,7 +183,7 @@ genesis_register_sidebar( array(
 	'id'          => 'home-widgets-6',
 	'name'        => __( 'Home 6', 'centric' ),
 	'description' => __( 'This is the sixth section of the home page.', 'centric' ),
-) );
+) );*/
 
 /**
  * Filter the genesis_seo_site_title function to use an image for the logo instead of a background image
