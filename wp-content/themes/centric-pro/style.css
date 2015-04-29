@@ -1003,7 +1003,7 @@ Site Header
 >>>>>>> Stashed changes
 	/*background-color: rgba(255, 255, 255, 0.1);*/
 	min-height: 60px;
-	padding: 0 40px;
+	padding: 10px 40px 0;
 }
 .shrink .site-title {
 	font-size: 36px;
@@ -1169,13 +1169,14 @@ Content Area
 }
 .home-featured .wrap {
 	margin-top: -160px;
-	max-width: 782px;
-	display: table;
+	/*max-width: 782px;
+	display: table;*/
+	width: 100%;
 	text-align: center;
 }
 .home-featured .home-widgets-1 {
 	display: inline-block;
-	display: table-cell;
+	/*display: table-cell;*/
 	vertical-align: middle;
 	width: 100%;
 	padding: 200px 0;
@@ -1226,8 +1227,12 @@ Content Area
 	left: 0;
 	right: 0;
 }
+.home-widgets-3 {
+	background-color: #6C6C5F;
+	color: #fff;
+}
 .home-widgets-4 {
-	background-color: #2e2f33;
+	background-color: #F5F5F5;
 	color: #fff;
 }
 .home-widgets-5 {
